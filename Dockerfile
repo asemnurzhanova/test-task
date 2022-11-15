@@ -1,5 +1,4 @@
-FROM golang:1.14      # for time optimization
-
+FROM golang:1.14
 USER 0
 ENV GO111MODULE=on
 
